@@ -6,7 +6,7 @@
 const getHostName = (url) => {
   // 请实现……
   //平时用到正则 大多时网上查询规则
-  let mm = /(\w)+.(\w+)\.com/;
+  let mm = /(\w)+.(\w+)\.(\w)+/;
   return url.match(mm)[0];
 };
 
