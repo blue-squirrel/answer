@@ -3,7 +3,7 @@
 
 // * ---------------- 请补充……
 
-const getData = (arr:string):Promise=>(
+const getData = (arr:string)=>(
   return fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
 )=async () =>
   await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
